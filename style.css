@@ -7,7 +7,7 @@ Description: A personal site crafted by a professional theme creator at Automatt
 Requires at least: 6.9
 Tested up to: 6.9
 Requires PHP: 7.2
-Version: 1.0.2
+Version: 1.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: im-h25
@@ -306,29 +306,6 @@ body.palette-blue {
 /* Cover wrapper */
 .wp-block-cover {
   overflow: hidden;
-}
-
-/* ==============================================================
-   EDITOR-ONLY OVERRIDES
-============================================================== */
-
-/* Visually hide editor-canvas accessibility labels that the block library
-   relies on but doesn't visually hide on its own:
-   — Navigation block's aria-describedby target (.wp-block-navigation__description)
-   — Categories block's label and any block using Gutenberg's CSS-Modules
-     hashed __visually-hidden class (exposed via [data-visually-hidden])
-   These must remain in the DOM/a11y tree but shouldn't push layout. */
-.editor-styles-wrapper .wp-block-navigation__description,
-.editor-styles-wrapper [data-visually-hidden] {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
-	border: 0;
 }
 
 /* ==============================================================
