@@ -97,17 +97,17 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#2a2622",
+					"color": "#080808",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#2a2622",
+					"color": "#030303",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#2a26221a",
+					"color": "#0303031a",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
@@ -328,6 +328,9 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/audio": {
+				"css": "& audio::-webkit-media-controls-panel{background-color:var(--wp--preset--color--base)}"
+			},
 			"core/avatar": {
 				"border": {
 					"radius": "2px"
@@ -363,6 +366,7 @@
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--contrast)"
 				},
+				"css": "&.is-style-outline > .wp-block-button__link:not(.has-background):hover{background-color:var(--wp--preset--color--secondary);color:var(--wp--preset--color--base);border-color:var(--wp--preset--color--secondary)}",
 				"elements": {
 					"link": {
 						"color": {
@@ -427,8 +431,7 @@
 							"textTransform": "none"
 						}
 					}
-				},
-				"css": "&.is-style-outline > .wp-block-button__link:not(.has-background):hover{background-color:var(--wp--preset--color--secondary);color:var(--wp--preset--color--base);border-color:var(--wp--preset--color--secondary)}"
+				}
 			},
 			"core/buttons": {
 				"spacing": {
@@ -436,6 +439,9 @@
 						"left": "var(--wp--preset--spacing--20)"
 					}
 				}
+			},
+			"core/categories": {
+				"css": "&.wp-block-categories-dropdown{position:relative;display:block} &.wp-block-categories-dropdown select{appearance:none;width:100%;min-width:160px;max-width:100%;background-color:var(--wp--preset--color--base);color:var(--wp--preset--color--primary);border:1px solid var(--wp--preset--color--tertiary);border-radius:2px;font-family:var(--wp--preset--font-family--manrope);font-size:var(--wp--preset--font-size--x-small);line-height:1;padding:0.6em 2.4em 0.6em 0.9em;cursor:pointer;box-shadow:0 1px 2px rgb(0 0 0 / 0.04);transition:border-color 0.2s ease, background-color 0.2s ease} &.wp-block-categories-dropdown select:hover{border-color:var(--wp--preset--color--tertiary)} &.wp-block-categories-dropdown select:focus{outline:none;border-color:var(--wp--preset--color--secondary)} &.wp-block-categories-dropdown::after{content:\"▾\";position:absolute;right:0.9em;top:50%;transform:translateY(-50%);pointer-events:none;font-size:var(--wp--preset--font-size--x-small);color:var(--wp--preset--color--tertiary)}"
 			},
 			"core/code": {
 				"border": {
@@ -520,13 +526,13 @@
 				}
 			},
 			"core/cover": {
+				"css": "overflow:hidden;& .wp-block-cover__image-background{transition:filter 0.35s cubic-bezier(.4,0,.2,1),transform 0.6s cubic-bezier(.4,0,.2,1)} &:hover .wp-block-cover__image-background{filter:none !important;transform:scale(1.04)} &:hover{filter:none !important}",
 				"filter": {
 					"duotone": "var(--wp--preset--duotone--duo-orange)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)"
-				},
-				"css": "overflow:hidden;& .wp-block-cover__image-background{transition:filter 0.35s cubic-bezier(.4,0,.2,1),transform 0.6s cubic-bezier(.4,0,.2,1)} &:hover .wp-block-cover__image-background{filter:none !important;transform:scale(1.04)} &:hover{filter:none !important}"
+				}
 			},
 			"core/footnotes": {
 				"spacing": {
@@ -627,7 +633,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
 					"letterSpacing": "0rem",
-					"lineHeight": 1.6
+					"lineHeight": 1.600000000000000088817841970012523233890533447265625
 				}
 			},
 			"core/post-date": {
@@ -662,6 +668,7 @@
 				"border": {
 					"radius": "2px"
 				},
+				"css": "overflow:hidden;& img{transition:filter 0.35s cubic-bezier(.4,0,.2,1),transform 0.6s cubic-bezier(.4,0,.2,1)} &:hover img{filter:none !important;transform:scale(1.04)} &:hover{filter:none !important}",
 				"filter": {
 					"duotone": "var(--wp--preset--duotone--duotone-default)"
 				},
@@ -670,8 +677,7 @@
 						"bottom": "0px",
 						"top": "0px"
 					}
-				},
-				"css": "overflow:hidden;& img{transition:filter 0.35s cubic-bezier(.4,0,.2,1),transform 0.6s cubic-bezier(.4,0,.2,1)} &:hover img{filter:none !important;transform:scale(1.04)} &:hover{filter:none !important}"
+				}
 			},
 			"core/post-navigation-link": {
 				"typography": {
@@ -927,12 +933,6 @@
 						"top": "0px"
 					}
 				}
-			},
-			"core/categories": {
-				"css": "&.wp-block-categories-dropdown{position:relative;display:block} &.wp-block-categories-dropdown select{appearance:none;width:100%;min-width:160px;max-width:100%;background-color:var(--wp--preset--color--base);color:var(--wp--preset--color--primary);border:1px solid var(--wp--preset--color--tertiary);border-radius:2px;font-family:var(--wp--preset--font-family--manrope);font-size:var(--wp--preset--font-size--x-small);line-height:1;padding:0.6em 2.4em 0.6em 0.9em;cursor:pointer;box-shadow:0 1px 2px rgb(0 0 0 / 0.04);transition:border-color 0.2s ease, background-color 0.2s ease} &.wp-block-categories-dropdown select:hover{border-color:var(--wp--preset--color--tertiary)} &.wp-block-categories-dropdown select:focus{outline:none;border-color:var(--wp--preset--color--secondary)} &.wp-block-categories-dropdown::after{content:\"▾\";position:absolute;right:0.9em;top:50%;transform:translateY(-50%);pointer-events:none;font-size:var(--wp--preset--font-size--x-small);color:var(--wp--preset--color--tertiary)}"
-			},
-			"core/audio": {
-				"css": "& audio::-webkit-media-controls-panel{background-color:var(--wp--preset--color--base)}"
 			}
 		},
 		"color": {
@@ -1000,14 +1000,14 @@
 					"fontStyle": "normal",
 					"fontWeight": "600",
 					"letterSpacing": "0rem",
-					"lineHeight": 1.4
+					"lineHeight": 1.399999999999999911182158029987476766109466552734375
 				}
 			},
 			"h4": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"letterSpacing": "0rem",
-					"lineHeight": 1.4
+					"lineHeight": 1.399999999999999911182158029987476766109466552734375
 				}
 			},
 			"h5": {
