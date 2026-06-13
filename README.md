@@ -10,13 +10,13 @@ H25 is a custom WordPress block theme made for people who write. The header lead
 
 ## Features
 
-- **A powerful editorial header** — portrait, navigation, and categories displayed upfront to pull readers straight into the writing.
-- **Many Query Loop layouts** — varied post grids and lists throughout, so different kinds of content each get a fitting stage.
-- **A changing spirit** — the accent colour is picked at random on every visit, and never the same one twice in a row.
-- **Lightweight & clean** — minimal CSS, mostly driven by `theme.json`; no page builders, no bloat.
-- **Built for mobile** — responsive from the ground up for comfortable reading on any device.
-- **A full block theme** — templates, parts, patterns, and global styles, all editable in the Site Editor.
-- **One typeface, done right** — [Manrope](https://github.com/sharanda/manrope) under the Open Font License, and nothing else to load.
+- **A powerful editorial header**: Portrait, navigation, and categories displayed upfront to pull readers straight into the writing.
+- **Many Query Loop layouts**: Varied post grids and lists throughout, so different kinds of content each get a fitting stage.
+- **A changing spirit**: The accent color is picked at random on every visit and is never the same one twice in a row.
+- **Lightweight & clean**: Minimal CSS, mostly driven by `theme.json`; no page builders, no bloat.
+- **Built for mobile**: Responsive from the ground up for comfortable reading on any device.
+- **A full block theme**: Templates, parts, patterns, and global styles, all editable in the Site Editor.
+- **One typeface, done right**: [Manrope](https://github.com/sharanda/manrope) under the Open Font License, and nothing else to load.
 
 ## A theme with a changing spirit
 
