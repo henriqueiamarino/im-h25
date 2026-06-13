@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Index
- * Slug: im-h25/index
+ * Slug: h25/index
  * Inserter: no
  */
 ?>
@@ -31,7 +31,7 @@
 <div class="wp-block-group"><!-- wp:post-terms {"term":"category"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('--', 'im-h25');?></p>
+<p class="has-small-font-size"><?php esc_html_e('--', 'h25');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-date {"format":"M j, Y","isLink":true,"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /--></div>

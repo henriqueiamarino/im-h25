@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: footer
- * Slug: im-h25/footer
+ * Slug: h25/footer
  * Inserter: no
  */
 ?>
@@ -19,17 +19,17 @@
 <div class="wp-block-group" style="min-height:100%"><!-- wp:group {"metadata":{"name":"Stacked block"},"style":{"spacing":{"blockGap":"0","padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"layout":{"selfStretch":"fill","flexSize":null},"border":{"radius":"4px"}},"backgroundColor":"base","layout":{"type":"flex","orientation":"horizontal","verticalAlignment":"center","justifyContent":"space-between"}} -->
 <div class="wp-block-group has-base-background-color has-background" style="border-radius:4px;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"metadata":{"name":"Tagline mobile"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.02rem","lineHeight":"1","textAlign":"left"}},"fontSize":"x-small"} -->
 <p class="has-text-align-left has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.02rem;line-height:1;text-transform:uppercase"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( 'Designed with %1$sWordPress%2$s.', 'im-h25' ), '<a href="' . esc_url( 'https://wordpress.org/' ) . '" target="_blank" rel="noreferrer noopener">', '</a>' ); ?></p>
+echo sprintf( esc_html__( 'Designed with %1$sWordPress%2$s.', 'h25' ), '<a href="' . esc_url( 'https://wordpress.org/' ) . '" target="_blank" rel="noreferrer noopener">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Stacked block"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"radius":{"topLeft":"4px","topRight":"4px","bottomLeft":"4px","bottomRight":"4px"}},"layout":{"selfStretch":"fill","flexSize":null}},"backgroundColor":"base","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group has-base-background-color has-background" style="border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"metadata":{"name":"Tagline mobile"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.02rem","lineHeight":"1","textAlign":"left"}},"fontSize":"x-small"} -->
-<p class="has-text-align-left has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.02rem;line-height:1;text-transform:uppercase"><?php esc_html_e('© 2026', 'im-h25');?></p>
+<p class="has-text-align-left has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.02rem;line-height:1;text-transform:uppercase"><?php esc_html_e('© 2026', 'h25');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"metadata":{"name":"AI Message"},"style":{"typography":{"letterSpacing":"0.02rem","lineHeight":"1","textAlign":"left"}},"fontSize":"x-small"} -->
-<p class="has-text-align-left has-x-small-font-size" style="letter-spacing:0.02rem;line-height:1"><?php esc_html_e('Content may not be used for AI training.', 'im-h25');?></p>
+<p class="has-text-align-left has-x-small-font-size" style="letter-spacing:0.02rem;line-height:1"><?php esc_html_e('Content may not be used for AI training.', 'h25');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Archive
- * Slug: im-h25/archive
+ * Slug: h25/archive
  * Inserter: no
  */
 ?>
@@ -37,7 +37,7 @@
 <div class="wp-block-group"><!-- wp:post-terms {"term":"category"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('--', 'im-h25');?></p>
+<p class="has-small-font-size"><?php esc_html_e('--', 'h25');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-date {"format":"M j, Y","isLink":true,"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /--></div>
@@ -63,7 +63,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'im-h25');?></p>
+<p><?php esc_html_e('Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'h25');?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:group --></div>

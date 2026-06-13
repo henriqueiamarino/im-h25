@@ -1,11 +1,11 @@
 <?php
 /**
  * Title: Header
- * Slug: im-h25/header
+ * Slug: h25/header
  * Inserter: no
  */
 ?>
-<!-- wp:group {"metadata":{"name":"header","patternName":"im-h25/header"},"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"contrast","layout":{"type":"default"},"anchor":"Header"} -->
+<!-- wp:group {"metadata":{"name":"header","patternName":"h25/header"},"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"contrast","layout":{"type":"default"},"anchor":"Header"} -->
 <div class="wp-block-group alignwide has-contrast-background-color has-background" id="Header" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"tagName":"main","metadata":{"name":"Header Wrapper"},"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"1px","bottom":"1px"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <main class="wp-block-group alignwide has-tertiary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:1px;padding-bottom:1px"><!-- wp:group {"metadata":{"name":"Header Columns"},"align":"wide","style":{"spacing":{"blockGap":"1px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"stretch"}} -->
 <div class="wp-block-group alignwide"><!-- wp:cover {"dimRatio":0,"isUserOverlayColor":true,"minHeight":80,"isDark":false,"metadata":{"name":"Site Logo"},"className":"tint-cover","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}},"border":{"radius":{"topLeft":"4px","topRight":"4px","bottomLeft":"4px","bottomRight":"4px"}}},"layout":{"type":"constrained"}} -->
@@ -22,7 +22,7 @@
 <div class="wp-block-group"><!-- wp:site-tagline /-->
 
 <!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.02rem"}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.02rem;text-transform:uppercase"><?php esc_html_e('Based in Milan, Italy.', 'im-h25');?></p>
+<p class="has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.02rem;text-transform:uppercase"><?php esc_html_e('Based in Milan, Italy.', 'h25');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

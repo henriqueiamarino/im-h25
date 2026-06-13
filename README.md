@@ -1,10 +1,10 @@
-# I’m H25
+# H25
 
 **The block theme behind [iamarino.com](https://iamarino.com).** A personal publishing theme with a bold editorial header, Query Loop layouts built to show off many kinds of writing, and a palette that shifts its spirit on every visit.
 
-![I’m H25 — home](screenshots/home.jpg)
+![H25 — home](screenshots/home.jpg)
 
-I’m H25 is a custom WordPress block theme made for people who write. The header leads with a portrait, the menu, and the site’s categories right up front—an open invitation to dive into the writing. Throughout the experience, different Query Loop layouts give each kind of content its own stage, from long reads to quick notes to book reviews. It’s lightweight, clean, and tuned for a great read on any screen.
+H25 is a custom WordPress block theme made for people who write. The header leads with a portrait, the menu, and the site’s categories right up front—an open invitation to dive into the writing. Throughout the experience, different Query Loop layouts give each kind of content its own stage, from long reads to quick notes to book reviews. It’s lightweight, clean, and tuned for a great read on any screen.
 
 → **See it live:** [iamarino.com](https://iamarino.com)
 
@@ -52,8 +52,8 @@ Single-column on the phone, multi-column on the desktop, and the editorial feel 
 
 ## Installation
 
-1. Download the [latest version](https://github.com/henriqueiamarino/im-h25/archive/refs/heads/main.zip) (or clone this repository).
-2. Copy the `im-h25` folder into `wp-content/themes/`.
+1. Download the [latest version](https://github.com/henriqueiamarino/h25/archive/refs/heads/main.zip) (or clone this repository).
+2. Copy the `h25` folder into `wp-content/themes/`.
 3. Activate it under **Appearance → Themes**.
 
 You can also install the ZIP directly from **Appearance → Themes → Add New → Upload Theme**.
@@ -65,4 +65,4 @@ You can also install the ZIP directly from **Appearance → Themes → Add New �
 
 ## License
 
-I’m H25 is free software, distributed under the **GNU General Public License v2.0 or later**. See [LICENSE](LICENSE) for the full text.
+H25 is free software, distributed under the **GNU General Public License v2.0 or later**. See [LICENSE](LICENSE) for the full text.

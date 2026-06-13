@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Author
- * Slug: im-h25/author
+ * Slug: h25/author
  * Inserter: no
  */
 ?>
@@ -14,7 +14,7 @@
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:activitypub/follow-me {"selectedUser":"inherit","className":"is-style-profile is-style-default"} -->
 <div class="wp-block-activitypub-follow-me is-style-profile is-style-default"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Follow', 'im-h25');?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Follow', 'h25');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:activitypub/follow-me --></div>
 <!-- /wp:column -->
@@ -48,7 +48,7 @@
 <div class="wp-block-group"><!-- wp:post-terms {"term":"category"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('--', 'im-h25');?></p>
+<p class="has-small-font-size"><?php esc_html_e('--', 'h25');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-date {"format":"M j, Y","isLink":true,"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /--></div>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Search
- * Slug: im-h25/search
+ * Slug: h25/search
  * Inserter: no
  */
 ?>
@@ -37,7 +37,7 @@
 <div class="wp-block-group"><!-- wp:post-terms {"term":"category"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('--', 'im-h25');?></p>
+<p class="has-small-font-size"><?php esc_html_e('--', 'h25');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-date {"format":"M j, Y","isLink":true,"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /--></div>
@@ -63,7 +63,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'im-h25');?></p>
+<p><?php esc_html_e('Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'h25');?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:group --></div>
@@ -78,10 +78,10 @@
 <!-- wp:column {"verticalAlignment":"top","width":"33.33%","layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:33.33%"><!-- wp:group {"metadata":{"name":"Search Wrapper"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"metadata":{"name":"Caput"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"0.02rem"}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.02rem;text-transform:uppercase"><?php esc_html_e('Search', 'im-h25');?></p>
+<p class="has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.02rem;text-transform:uppercase"><?php esc_html_e('Search', 'h25');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:search {"label":"<?php esc_attr_e('Search', 'im-h25');?>","showLabel":false,"buttonText":"<?php esc_attr_e('Search', 'im-h25');?>","buttonPosition":"button-inside","buttonUseIcon":true} /--></div>
+<!-- wp:search {"label":"<?php esc_attr_e('Search', 'h25');?>","showLabel":false,"buttonText":"<?php esc_attr_e('Search', 'h25');?>","buttonPosition":"button-inside","buttonUseIcon":true} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:spacer {"height":"2.5vh","metadata":{"name":"2.5VH"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

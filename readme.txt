@@ -1,4 +1,4 @@
-== I’m H25 ==
+== H25 ==
 
 Contributors: Henrique Iamarino
 Requires at least: 6.9
@@ -20,8 +20,8 @@ A personal site crafted by a professional theme creator at Automattic. If you’
 
 == Copyright ==
 
-I’m H25 WordPress Theme, (C) 2026 Henrique Iamarino
-I’m H25 is distributed under the terms of the GNU GPL.
+H25 WordPress Theme, (C) 2026 Henrique Iamarino
+H25 is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -34,7 +34,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 
-I’m H25 is based on H Venticinque (https://iamarino.com/h-venticinque), (C) Henri Iamarino, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
+H25 is based on H Venticinque (https://iamarino.com/h-venticinque), (C) Henri Iamarino, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 == Fonts ==

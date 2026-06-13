@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: home
- * Slug: im-h25/home
+ * Slug: h25/home
  * Inserter: no
  */
 ?>
@@ -27,7 +27,7 @@
 
 <!-- wp:post-date {"datetime":"2025-11-03T10:32:30.523Z","format":"M j, Y","isLink":true,"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"textAlign":"left"}}} /-->
 
-<!-- wp:post-excerpt {"moreText":"<?php esc_attr_e('More', 'im-h25');?>","showMoreOnNewLine":false,"excerptLength":35,"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|50"}}},"fontSize":"small"} /--></div>
+<!-- wp:post-excerpt {"moreText":"<?php esc_attr_e('More', 'h25');?>","showMoreOnNewLine":false,"excerptLength":35,"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|50"}}},"fontSize":"small"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -51,7 +51,7 @@
 
 <!-- wp:post-date {"datetime":"2025-11-03T10:32:30.523Z","format":"M j, Y","isLink":true,"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"textAlign":"left"}}} /-->
 
-<!-- wp:post-excerpt {"moreText":"<?php esc_attr_e('More', 'im-h25');?>","showMoreOnNewLine":false,"excerptLength":25,"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|50"}}},"fontSize":"small"} /--></div>
+<!-- wp:post-excerpt {"moreText":"<?php esc_attr_e('More', 'h25');?>","showMoreOnNewLine":false,"excerptLength":25,"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|50"}}},"fontSize":"small"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template --></div>
@@ -60,7 +60,7 @@
 <!-- wp:group {"metadata":{"name":"QL More"},"className":"hover-invert","style":{"layout":{"selfStretch":"fill","flexSize":null},"dimensions":{"minHeight":"100%"},"spacing":{"padding":{"top":"0","bottom":"0","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"radius":{"topLeft":"4px","topRight":"4px","bottomLeft":"4px","bottomRight":"4px"}}},"backgroundColor":"base","layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
 <div class="wp-block-group hover-invert has-base-background-color has-background" style="border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;min-height:100%;padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0;padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"metadata":{"name":"Plus"},"className":"no-underline","style":{"typography":{"lineHeight":"1","textAlign":"center"}},"fontSize":"display"} -->
 <p class="has-text-align-center no-underline has-display-font-size" style="line-height:1"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$s+%2$s', 'im-h25' ), '<a href="' . esc_url( '/category/blog/' ) . '" data-type="page" data-id="3811">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$s+%2$s', 'h25' ), '<a href="' . esc_url( '/category/blog/' ) . '" data-type="page" data-id="3811">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -72,7 +72,7 @@ echo sprintf( esc_html__( '%1$s+%2$s', 'im-h25' ), '<a href="' . esc_url( '/cate
 <!-- wp:group {"metadata":{"name":"Most Readed"},"align":"wide","style":{"spacing":{"blockGap":"1px","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"},"anchor":"most-read"} -->
 <div class="wp-block-group alignwide" id="most-read" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"Section Title"},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:heading {"metadata":{"name":"Caput"},"style":{"typography":{"letterSpacing":"0rem","lineHeight":"1.5"}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0rem;line-height:1.5"><?php esc_html_e('Most Read Stories.', 'im-h25');?></h2>
+<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0rem;line-height:1.5"><?php esc_html_e('Most Read Stories.', 'h25');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|40","metadata":{"name":"S"}} -->
@@ -147,12 +147,12 @@ echo sprintf( esc_html__( '%1$s+%2$s', 'im-h25' ), '<a href="' . esc_url( '/cate
 <div class="wp-block-group alignwide" id="readings" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"Section Title"},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Title Row"},"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:heading {"metadata":{"name":"Caput"},"style":{"typography":{"letterSpacing":"0rem","lineHeight":"1.5"}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0rem;line-height:1.5"><?php esc_html_e('Readings.', 'im-h25');?></h2>
+<h2 class="wp-block-heading has-small-font-size" style="letter-spacing:0rem;line-height:1.5"><?php esc_html_e('Readings.', 'h25');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( 'After enjoying books, I design covers to make them forever mine. %1$sMore%2$s.', 'im-h25' ), '<a href="' . esc_url( 'https://iamarino.com/books/' ) . '">', '</a>' ); ?></p>
+echo sprintf( esc_html__( 'After enjoying books, I design covers to make them forever mine. %1$sMore%2$s.', 'h25' ), '<a href="' . esc_url( 'https://iamarino.com/books/' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Book Review
- * Slug: im-h25/book-review
+ * Slug: h25/book-review
  * Inserter: no
  */
 ?>
@@ -40,7 +40,7 @@
 <!-- wp:group {"metadata":{"name":"Share and Likes"},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Like"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.025rem","fontStyle":"normal","fontWeight":"600"}},"fontSize":"x-small"} -->
-<h3 class="wp-block-heading has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.025rem;text-transform:uppercase"><?php esc_html_e('Liked it?', 'im-h25');?></h3>
+<h3 class="wp-block-heading has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.025rem;text-transform:uppercase"><?php esc_html_e('Liked it?', 'h25');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:jetpack/like /--></div>
@@ -48,7 +48,7 @@
 
 <!-- wp:group {"metadata":{"name":"Share"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.025rem","fontStyle":"normal","fontWeight":"600"}},"fontSize":"x-small"} -->
-<h3 class="wp-block-heading has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.025rem;text-transform:uppercase"><?php esc_html_e('Share', 'im-h25');?></h3>
+<h3 class="wp-block-heading has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.025rem;text-transform:uppercase"><?php esc_html_e('Share', 'h25');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:jetpack/sharing-buttons {"styleType":"text","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"0"}}},"layout":{"type":"flex"}} -->
@@ -66,7 +66,7 @@
 
 <!-- wp:group {"metadata":{"name":"Author"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.025rem","fontStyle":"normal","fontWeight":"600"}},"fontSize":"x-small"} -->
-<h3 class="wp-block-heading has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.025rem;text-transform:uppercase"><?php esc_html_e('Written by.', 'im-h25');?></h3>
+<h3 class="wp-block-heading has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.025rem;text-transform:uppercase"><?php esc_html_e('Written by.', 'h25');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:post-author {"showBio":true,"byline":""} /--></div>
@@ -79,7 +79,7 @@
 <!-- wp:group {"metadata":{"name":"Tags"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.025rem","fontStyle":"normal","fontWeight":"600","lineHeight":"1.5"}},"fontSize":"x-small"} -->
-<h3 class="wp-block-heading has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.025rem;line-height:1.5;text-transform:uppercase"><?php esc_html_e('Posted in.', 'im-h25');?></h3>
+<h3 class="wp-block-heading has-x-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:0.025rem;line-height:1.5;text-transform:uppercase"><?php esc_html_e('Posted in.', 'h25');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:post-terms {"term":"category"} /--></div>
