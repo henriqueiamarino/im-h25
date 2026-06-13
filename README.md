@@ -43,7 +43,7 @@ Single-column on the phone, multi-column on the desktop, and the editorial feel 
 | Overview | Reading & topics | Single post |
 |:---:|:---:|:---:|
 | ![Layout overview](screenshots/overview.jpg) | ![About page and topics sidebar](screenshots/about.jpg) | ![Single post with audio and video](screenshots/single.jpg) |
-| Query Loops, patterns, and parts | Categories and topics, upfront | Audio, video, and long-form reading |
+| Query Loops, patterns, and parts | Categories and topics, upfront | Optimized for long-form reading |
 
 ## Requirements
 
