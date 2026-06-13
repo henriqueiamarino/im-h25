@@ -4,7 +4,7 @@
 
 ![I’m H25 — home](screenshots/home.jpg)
 
-I’m H25 is a custom WordPress block theme made for people who write. The header leads with a portrait, the menu, and the site’s categories right up front — an open invitation to dive into the writing. Throughout the experience, different Query Loop layouts give each kind of content its own stage, from long reads to quick notes to book reviews. It’s lightweight, clean, and tuned for a great read on any screen.
+I’m H25 is a custom WordPress block theme made for people who write. The header leads with a portrait, the menu, and the site’s categories right up front—an open invitation to dive into the writing. Throughout the experience, different Query Loop layouts give each kind of content its own stage, from long reads to quick notes to book reviews. It’s lightweight, clean, and tuned for a great read on any screen.
 
 → **See it live:** [iamarino.com](https://iamarino.com)
 
@@ -60,7 +60,6 @@ You can also install the ZIP directly from **Appearance → Themes → Add New �
 
 ## Credits
 
-- Based on **H Venticinque** by Henrique Iamarino.
 - Typeface: **Manrope** by the Manrope Project Authors, under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
 - Built as a block theme for the WordPress Site Editor.
 
