@@ -164,3 +164,11 @@ a {
     transform: none !important;
   }
 }
+
+/*
+ * Table — the header cells (th) are left-aligned.
+ */
+
+.first-column-half th {
+	text-align: left;
+}
